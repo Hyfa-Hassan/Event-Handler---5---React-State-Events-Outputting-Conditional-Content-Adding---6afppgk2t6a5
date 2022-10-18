@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <form onChange={(e)=>formC(e)}>
+      <form onClick={(e)=>formC(e)}>
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
